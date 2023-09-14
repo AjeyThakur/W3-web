@@ -1,0 +1,35 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+    height: 11vh;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-size: x-large;
+}
+.right-nav ul li {
+    padding: 1rem;
+    cursor: pointer;
+}
+.logo{
+    padding: 1rem;
+}
+.fa-star {
+    font-size: xx-large;
+}
+.

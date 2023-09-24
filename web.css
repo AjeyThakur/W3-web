@@ -1,35 +1,101 @@
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: grey;
-    height: 11vh;
-    text-align: center;
-    display: flex;
-    justify-content: flex-start;
+body {
+    background-color: #282A35;
 }
 
-.right-nav ul {
+header {
+    background-color: white;
+    display: flex;
+    height: 11vh;
+    justify-content: space-between;
+}
+
+header .navLeft {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .navLeft .navButtons ul {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    color: white;
-    font-size: x-large;
+    color: black;
+    font-size: larger;
+    margin: 0;
 }
-.right-nav ul li {
+
+header .navLeft .navButtons ul li {
     padding: 1rem;
     cursor: pointer;
 }
-.logo{
+
+header .navLeft .navButtons ul li:hover {
+    background-color: #04AA6D;
+}
+
+header .navLeft .logo {
     padding: 1rem;
 }
-.fa-star {
+
+header .navLeft .fa-star {
     font-size: xx-large;
 }
-.
+
+.search-box {
+    width: 14rem;
+    margin: 1rem 0.5rem;
+    min-height: 1.6rem;
+    max-height: 3rem;
+    border-radius: 5rem;
+    border: 2px #04AA6D;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+
+}
+
+.search-box button i {
+    font-size: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+header .navRight {
+    display: flex;
+    align-items: center;
+}
+
+header .navRight a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 25px;
+    width: 8rem;
+    text-align: center;
+}
+
+header .navRight a:hover {
+    background-color: blue;
+}
